@@ -1,0 +1,5 @@
+RegisterCommand('healmyself', function()
+    local playerSource = PlayerPedId()
+    SetEntityHealth(playerSource, 200)
+    print("Feltöltődött az életed!")
+end)
